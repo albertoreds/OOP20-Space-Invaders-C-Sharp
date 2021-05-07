@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net4.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="model\powerup\**" />
+    <Compile Remove="view\**" />
+    <EmbeddedResource Remove="model\powerup\**" />
+    <EmbeddedResource Remove="view\**" />
+    <None Remove="model\powerup\**" />
+    <None Remove="view\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="model\AbstractEnemy.cs" />
+    <Compile Remove="model\AbstractMeteor.cs" />
+    <Compile Remove="model\BasicEnemy.cs" />
+    <Compile Remove="model\BossEnemy.cs" />
+    <Compile Remove="model\Bullet.cs" />
+    <Compile Remove="model\BulletImpl.cs" />
+    <Compile Remove="model\DirEnemy.cs" />
+    <Compile Remove="model\Enemy.cs" />
+    <Compile Remove="model\EnemyBehaviour.cs" />
+    <Compile Remove="model\EnemyImpl.cs" />
+    <Compile Remove="model\Meteor.cs" />
+    <Compile Remove="model\MeteorHitBox.cs" />
+    <Compile Remove="model\MeteorImpl.cs" />
+    <Compile Remove="model\ShotEnemy.cs" />
+    <Compile Remove="model\ShotEnemyImpl.cs" />
+    <Compile Remove="model\SpecialEffect.cs" />
+    <Compile Remove="utility\ImageLoader.cs" />
+  </ItemGroup>
+
+</Project>
