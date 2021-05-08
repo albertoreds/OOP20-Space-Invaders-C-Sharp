@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgettoCSharp", "ProgettoCSharp\ProgettoCSharp.csproj", "{AAD770A4-98A2-4F5A-B01C-05447BBCDD3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteorTest", "MeteorTest\MeteorTest.csproj", "{ECCB455B-CF02-40D1-9145-4463CEFF8A58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAD770A4-98A2-4F5A-B01C-05447BBCDD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD770A4-98A2-4F5A-B01C-05447BBCDD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD770A4-98A2-4F5A-B01C-05447BBCDD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD770A4-98A2-4F5A-B01C-05447BBCDD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCB455B-CF02-40D1-9145-4463CEFF8A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCB455B-CF02-40D1-9145-4463CEFF8A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCB455B-CF02-40D1-9145-4463CEFF8A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCB455B-CF02-40D1-9145-4463CEFF8A58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B157F3A5-76ED-4BD2-8261-24790DB8C78D}
+	EndGlobalSection
+EndGlobal
